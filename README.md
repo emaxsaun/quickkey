@@ -8,7 +8,7 @@ This is a small JavaScript library for use with the JW Player. It allows for key
 Implementation:
 ==========
 
-The file speed.js simply needs to be loaded unerneath the closing script tag for your JW Player embed. It is that simple. Like so:
+The file quickkey.js simply needs to be loaded unerneath the closing script tag for your JW Player embed. It is that simple. Like so:
 
 <pre>
 &lt;script type=&quot;text/javascript&quot; src=&quot;quickkey.js&quot;&gt;&lt;/script&gt;
