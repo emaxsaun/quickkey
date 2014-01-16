@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>QuickKey</title>
+		<script type="text/javascript" src="http://p.jwpcdn.com/6/7/jwplayer.js"></script>
+		<style type="text/css">
+		html, body {
+			background: #eeeeee;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+		</style>
+	</head>
+	<body>
+		<h5>Legend: Up = Volume Up, Down = Volume Down, Right = Fast Forward, Left = Rewind, Space = Play/Pause, Esc = Stop, Shift = Resize, Enter = Full Screen, Ctrl = Mute, < = Previous Item, > = Next Item</h5>
+		<br />
+		<div id="player"></div>
+		<script type="text/javascript">
+		jwplayer("player").setup({
+		primary: "html5",
+		autostart: false,
+		mute: false,
+		playlist: [{
+		file: "http://content.bitsontherun.com/videos/3XnJSIm4-kNspJqnJ.mp4",
+		image: "http://content.bitsontherun.com/thumbs/3XnJSIm4-640.jpg",
+		title: "Sintel Trailer"
+		},{
+		file: "http://content.bitsontherun.com/videos/i8oQD9zd-kNspJqnJ.mp4",
+		image: "http://content.bitsontherun.com/thumbs/i8oQD9zd-640.jpg",
+		title: "Tears of Steel Trailer"
+		},{
+		file: "http://content.bitsontherun.com/videos/bkaovAYt-kNspJqnJ.mp4",
+		image: "http://content.bitsontherun.com/thumbs/bkaovAYt-640.jpg",
+		title: "Big Buck Bunny Trailer"
+		},{
+		file: "http://content.bitsontherun.com/videos/kaUXWqTZ-kNspJqnJ.mp4",
+		image: "http://content.bitsontherun.com/thumbs/kaUXWqTZ-640.jpg",
+		title: "Elephants Dream Trailer"
+		}],
+		listbar: {
+		position: "right",
+		size: 280
+		},
+		width: 700,
+		height: 330
+		});
+		</script>
+		<script src="quickkey.js"></script>
+	</body>
+</html>
