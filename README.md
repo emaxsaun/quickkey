@@ -18,15 +18,17 @@ The following keyboard commands perform the following actions:
 
 Up = Volume Up<br />
 Down = Volume Down<br />
-Right = Fast Forward<br />
-Left = Rewind<br />
+Right = Fast Forward (while playing)<br />
+Left = Rewind (while playing)<br />
 Space = Play/Pause<br />
 Esc = Stop (or exit fullscreen)<br />
 Shift = Resize<br />
 Enter = Full Screen (HTML5 only)<br />
 Ctrl = Mute<br />
-&lt; = Previous Item<br />
-&gt; = Next Item
+&lt; = Previous Playlist Item<br />
+&gt; = Next Playlist Item<br />
+
+Note - If you change between playlist items while the player is stopped, it will simply go to the next or previous playlist item in a stopped state. However, if you change between playlist items while the player is playing, the next or previous playlist item will play. 
 
 Example:
 ==========
