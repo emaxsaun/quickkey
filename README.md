@@ -14,6 +14,20 @@ The file speed.js simply needs to be loaded unerneath the closing script tag for
 &lt;script type=&quot;text/javascript&quot; src=&quot;quickkey.js&quot;&gt;&lt;/script&gt;
 </pre>
 
+The following keyboard commands perform the following actions:
+
+Up = Volume Up<br />
+Down = Volume Down<br />
+Right = Fast Forward<br />
+Left = Rewind<br />
+Space = Play/Pause<br />
+Esc = Stop (or exit fullscreen)<br />
+Shift = Resize<br />
+Enter = Full Screen (HTML5 only)<br />
+Ctrl = Mute<br />
+&lt; = Previous Item<br />
+&gt; = Next Item
+
 Example:
 ==========
 
