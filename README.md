@@ -69,4 +69,4 @@ Example:
 &lt;script type=&quot;text/javascript&quot; src=&quot;quickkey.js&quot;&gt;&lt;/script&gt;
 </pre>
 
-The source code is available for this plugin. There is just a .js file for JavaScript. Publishing the JavaScipt can be simply done with any text editor. Enjoy~! :) 
+The source code is available for this script. There is just a .js file for JavaScript. Publishing the JavaScipt can be simply done with any text editor. Enjoy~! :) 
